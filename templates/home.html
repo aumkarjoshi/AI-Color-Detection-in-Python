@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Website
+        </title>
+        <style>
+            body{
+                background-color: lightblue;
+                padding: inherit;
+                border: 5px solid black;
+                
+            }
+            button{
+                background-color: #4CAF50;
+                border: 5px dotted brown;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+            h1{
+                border: 5px;
+                border-style: solid;
+                color: black;
+                width: 550px;
+  	            
+            }
+            hr{
+                border: 5px;
+            }
+            form{
+                color: black;
+                font-size: 16px;
+            }
+            h2{
+                font-size: 50px;
+            }
+        </style>
+    </head>
+    <center><body>
+        <h2>Artificial Intelligence Seminar</h2>
+        <h1>Color Detection in Image</h1>
+        <form action="/action_page.php">
+            <input type="file" id="myFile" name="filename"><hr>
+        </form>
+        <button onclick="location.href='{% url 'script' %}'">Submit</button> <hr>
+        <h1>Color Detection in Camera</h1>
+        <button onclick="location.href='{% url 'script1'%}'">Open Camera</button>
+    </body></center>
+</html>
