@@ -3,3 +3,5 @@ Color Detection Website. It gives you two option. First to detect accurate color
 Open websitepy
 views contains the code for Color detection in image
 views1 contains the code for Color detection in Camera
+2.jpg and mix.png are the input files
+
